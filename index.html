@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <form action="#" method="post">
+    <div class="formName">
+      <p>Name</p>
+      <input tabindex="1" placeholder="input Name" type="text" name="Name">
+    </div>
+
+    <div class="formPassword">
+      <p>Password</p>
+      <input tabindex="2" type="password" name="password">
+    </div>
+
+    <div class="formTel">
+      <p>Telefon</p>
+      <input tabindex="3" type="tel" name="telefon">
+    </div>
+
+    <div class="formSex">
+      <p>Sex</p>
+      <div>
+        <input checked type="radio" 
+          name="sex" 
+          value="men">Men
+      </div>
+      <div>
+        <input type="radio" 
+        name="sex" 
+        value="women">Women
+      </div>
+    </div>
+      
+    <div class="formProperty">
+      <p tabindex="4">Property</p>
+      <div>
+        <input  checked type="checkbox" 
+        name="Bycicle"> Bycicle
+      </div>
+      <div>
+        <input type="checkbox" 
+        name="car"> Car
+      </div>
+      <div>
+        <input type="checkbox" 
+        name="flat"> Flat
+      </div>
+    </div>
+
+    <div class="formInfo">
+      <p>Additional Information</p>
+      <textarea tabindex="5" name="addInfo">
+      </textarea>
+    </div>
+
+    <div class="formFile">
+      <p>Select File</p>
+      <input disabled type="file" name="selectFile">
+    </div>
+
+    <div class="formColor">
+      <p>Select your favorite color</p>
+      <select tabindex="6" multiple name="color">
+        <option value="blue">Blue</option>
+        <option selected value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="pink">Pink</option>
+      </select>
+    </div>
+
+    <div class="formButton">
+      <p>Action</p>
+      <button tabindex="7" type="submit" name="submit">Send</button>
+      <button tabindex="8" type="reset" name="reset">Clear</button>
+    </div>
+
+
+
+
+
+
+
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
